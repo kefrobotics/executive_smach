@@ -1,1 +1,4 @@
 **/__pycache__/
+smach_ros/build
+smach_ros/install
+smach_ros/log

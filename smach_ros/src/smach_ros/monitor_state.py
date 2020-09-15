@@ -69,7 +69,7 @@ class MonitorState(RosState):
         return 'invalid'
 
     def _cb(self, msg) :
-        if self._ud is None: return
+        self._ud = None
 
         self.node.get_logger().debug("MonitorState._cb: {}, {}".format(self._ud, msg))
         try:
